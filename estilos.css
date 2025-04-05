@@ -26,32 +26,6 @@ body{
 }
 
 
-.header{
-    height: 100vh;
-    /* 02 */
-    background-image: url(img/foto-principal.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
- 
-   
-}
-
-
-
-.head{
-
-    height: 100%;
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #fff;
-
-}
-
 
 /* animacion de encabezado CONTADOR */
 .encabezado{
@@ -89,41 +63,37 @@ body{
         }
         
     }
-/* fin de animacion encabezado bautizo
+/* fin de animacion encabezado 
  */
 
 
-
-
-h2{
-    color:#ec0606ec;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-
-
-}
-
-
-
-h3{
-
-    font-family: 'Dancing Script', cursive;
-}
-h4{
-
-    font-family: 'Dancing Script', cursive;
-}
-
-.card{
+.header{
+    height: 100vh;
+    /* 02 */
+    background-image: url(img/foto-principal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
  
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
    
 }
 
-.pensamiento {
+
+.head{
+
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+
+ .pensamiento {
     
     display: flex;
     justify-content: center;
@@ -148,6 +118,37 @@ h4{
     animation: movimiento 2.5s linear infinite;
     
 }
+
+
+
+
+
+h2{
+    color:#ec0606ec;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+h3{
+
+    font-family: 'Dancing Script', cursive;
+}
+h4{
+
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.card{
+ 
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+   
+}
+
+
 /* PAGINA GENERADORA DE BOTONES   https://markodenic.com/tools/buttons-generator/ */
 
 .css-button-gradient--3 {
@@ -175,6 +176,7 @@ h4{
 
 /* FIN DE BOTON */
 
+/* TEXTOS DEL SW ALERT EN EL JAVA SCRIPT */
 
 .textos-alert-inicio{
     font-size: 25px;
@@ -201,25 +203,7 @@ h4{
 
 
 
-.menu-navegacion{
-    position: fixed;
-    top: 0;
-    width: 30vw;
-    height: 100%;
-    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
-    /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    /* 028 */
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    right: 0;
-    transform: translateX(110%);
-    transition:transform 0.3s ease-in-out;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-}
+
 
 .spread{
     transform: translateX(0);
@@ -244,13 +228,14 @@ h4{
 
 /* Services */
 
-.subtitulo{
-    /* color: #9f8ad0; */
+
+.rouge-script-regular {
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 40px;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
+  }
+  
 
 .contenedor-servicio{
     display: flex;
